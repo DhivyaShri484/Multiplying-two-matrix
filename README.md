@@ -25,7 +25,7 @@ for i in range(n):
     l2.append(int(input()))
 array_1=np.array(l1)
 array_2=np.array(l2)
-product=array_1*array_2
+product=array_1* array_2
 print("Product of two arrays is:",product)
 
 ## OUTPUT:
