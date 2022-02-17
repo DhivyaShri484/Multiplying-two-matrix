@@ -17,17 +17,24 @@ Print the product of two arrays.
 
 ## PROGRAM: 
 import numpy as np
-l1,l2=[],[]
-n=int(input())
-for i in range(n):
-    l1.append(int(input()))
-for i in range(n):
-    l2.append(int(input()))
-array_1=np.array(l1)
-array_2=np.array(l2)
-product=array_1* array_2
-print("Product of two arrays is:",product)
 
+m1,m2 =[],[]
+
+n = int(input())
+
+for i in range(n):
+
+     m1.append(int (input()))
+
+for i in range(n):
+     m2.append(int (input()))
+value1=np.array(m1)
+value2= np.array(m2)
+
+result = value1*value2
+
+
+print("Product of two arrays is:", result)
 ## OUTPUT:
 ![image](https://user-images.githubusercontent.com/94505585/154469975-96240515-97b0-4a8e-b11a-eb0ba8d0318f.png)
 
